@@ -49,12 +49,11 @@ WHERE first_name = 'Tyler'
   AND last_name = 'Rose';
 ```
 
-Use `SELECT` statements to determine what happened?
-
-If you feel like nothing happened, you would be correct. 
-
-Now, can you fix the statement so it will rename **Rose Tyler** to 
-**Rose Smith**?
+<details>
+  <summary>How did this SQL statement change the data? Hint: Use <code>SELECT</code> statements.</summary>
+  If you feel like nothing happened, you would be correct. Now, can you fix the statement so it
+  will rename <strong>Rose Tyler</strong> to <strong>Rose Smith</strong>?
+</details>
 
 ## Step 3: `UPDATE` error
 
