@@ -32,7 +32,9 @@ rows shown above.
 > Tip: You can rerun the command above any time you want to get back to the
 > original seed data. This is helpful when working on statements that modify the
 > database, in case you have any errors when you run one.
-For the following steps, you should execute the SQL command in the SQLite3 CLI, but you can create and use a `.sql` file to to formulate the command.
+
+For the following steps, you should execute the SQL command in the SQLite3 CLI,
+but you can create and use a `.sql` file to formulate the command.
 
 ## Step 1: Update last name
 
@@ -54,18 +56,6 @@ WHERE first_name = 'Tyler'
   If you feel like nothing happened, you would be correct. Now, can you fix the statement so it
   will rename <strong>Rose Tyler</strong> to <strong>Rose Smith</strong>?
 </details>
-
-## Step 3: `UPDATE` error
-
-Write an `UPDATE` statement to try to remove the *last_name* from the friend
-with `id = 5`.
-
-> Tip: Removing a value usually means setting it to `NULL`.
-
-What error do you see? Why does this error happen?
-
-Without changing the database schema, is there another way to change friend `5`
-so they only have a first name?
 
 ## Congratulations!
 
