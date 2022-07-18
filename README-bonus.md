@@ -5,7 +5,7 @@ table using SQL.
 
 ## Trigger an `UPDATE` error
 
-Write an `UPDATE` statement to try to remove the *last_name* from the friend
+Write an `UPDATE` statement to try to remove the *first_name* from the friend
 with `id = 5`.
 
 <details><summary>Hint</summary>Removing a value usually means setting it to <code>NULL</code>.</details>
@@ -19,6 +19,6 @@ What error do you see? Why does this error happen?
 ## Resolve the error
 
 Without changing the database schema, is there another way to change friend `5`
-so they only have a first name?
+so they only have a last name?
 
-<details><summary>Hint</summary>Try setting the <code>last_name</code> of the friend to another value other than <code>NULL</code>.</details>
+<details><summary>Hint</summary>Try setting the <code>first_name</code> of the friend to another value other than <code>NULL</code>.</details>

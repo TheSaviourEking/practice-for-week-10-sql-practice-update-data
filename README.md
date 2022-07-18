@@ -14,10 +14,10 @@ Table `friends`:
 
 | `id` |  `first_name`  |  `last_name`  |
 | ---- | -------------- | ------------- |
-| 1    | Amy            | Pond          |
-| 2    | Rose           | Tyler         |
-| 3    | Martha         | Jones         |
-| 4    | Donna          | Noble         |
+| 1    | Ryan           | Pond          |
+| 2    | Sky            | Tyler         |
+| 3    | Morgan         | Jones         |
+| 4    | Shannon        | Noble         |
 | 5    | River          | Song          |
 
 ### Create table
@@ -38,7 +38,7 @@ but you can create and use a `.sql` file to formulate the command.
 
 ## Step 1: Update last name
 
-Write and run a `UPDATE` statement to change **Amy Pond** to **Amy Blue**.
+Write and run a `UPDATE` statement to change **Ryan Pond** to **Ryder Pond**.
 
 ## Step 2: Silent failure
 
@@ -46,15 +46,15 @@ Copy/paste the following SQL statement into your SQLite CLI, and run it.
 
 ```sql
 UPDATE friends
-SET last_name = 'Smith'
+SET last_name = 'Blue'
 WHERE first_name = 'Tyler'
-  AND last_name = 'Rose';
+  AND last_name = 'Sky';
 ```
 
 <details>
   <summary>How did this SQL statement change the data? Hint: Use <code>SELECT</code> statements.</summary>
   If you feel like nothing happened, you would be correct. Now, can you fix the statement so it
-  will rename <strong>Rose Tyler</strong> to <strong>Rose Smith</strong>?
+  will rename <strong>Sky Tyler</strong> to <strong>Sky Blue</strong>?
 </details>
 
 ## Congratulations!
