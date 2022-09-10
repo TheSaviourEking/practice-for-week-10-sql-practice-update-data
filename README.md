@@ -36,7 +36,7 @@ rows shown above.
 For the following steps, you should execute the SQL command in the SQLite3 CLI,
 but you can create and use a `.sql` file to formulate the command.
 
-## Step 1: Update last name
+## Step 1: Update first name
 
 Write and run a `UPDATE` statement to change **Ryan Pond** to **Ryder Pond**.
 
