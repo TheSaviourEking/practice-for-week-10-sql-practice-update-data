@@ -1,3 +1,5 @@
+.read seed - data.sql 
+
 -- Step 1: Update last name 
 UPDATE
     friends
@@ -31,7 +33,6 @@ WHERE
 --     last_name = NULL
 -- WHERE
 --     id = 5;
-
 -- what error do you see ?
 -- Error: near line 28: stepping, NOT NULL constraint failed: friends.last_name (19)
 -- why does this error happen ?
